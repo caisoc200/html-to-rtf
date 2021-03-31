@@ -7,11 +7,11 @@
 
 ## Installation
 ```
-$ npm install html-to-rtf
+$ npm install heron-html-to-rtf
 ```
 ## Getting Started
 ```javascript
-var htmlToRtf = require('html-to-rtf');
+var htmlToRtf = require('heron-html-to-rtf');
 var html = `
 <div>
 	<p style="color:#333; margin:5px;" class="test" align="center">
@@ -56,7 +56,7 @@ htmlToRtf.saveRtfInFile('<Path>/<FileName>.rtf', htmlToRtf.convertHtmlToRtf(html
 ```
 ### Allowed style properties
 
-> color(Hex and Rgb), font-size(px), text-align
+> color(Hex and Rgb), font-size(px), text-align, font-family
 
 
 ## Running the tests
