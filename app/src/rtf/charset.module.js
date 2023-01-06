@@ -262,5 +262,17 @@ module.exports = [
     {
         htmlEntity: '\u200B',
         rtfEscapeChar: ''
+    },
+    {
+        htmlEntity:'&sup1',
+        rtfEscapeChar:'\\\'b1'
+    },
+    {
+        htmlEntity:'&sup2',
+        rtfEscapeChar:'\\\'b2'
+    },
+    {
+        htmlEntity:'&sup3',
+        rtfEscapeChar:'\\\'b3'
     }
 ];
