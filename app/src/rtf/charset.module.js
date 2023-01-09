@@ -274,5 +274,9 @@ module.exports = [
     {
         htmlEntity:'&sup3',
         rtfEscapeChar:'\\\'b3'
+    },
+    {
+        htmlEntity:'&reg;',
+        rtfEscapeChar:'\\\'ae'
     }
 ];
